@@ -36,8 +36,6 @@ BOARD_RAMDISK_USE_LZ4 := true
 BOARD_PRESIL_BUILD := true
 -include $(QCPATH)/common/bengal/BoardConfigVendor.mk
 
-USE_OPENGL_RENDERER := true
-
 #Enable dtb in boot image and boot image header version 3 support.
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 # Set Header version for bootimage
